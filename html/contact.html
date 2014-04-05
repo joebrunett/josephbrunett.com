@@ -2,48 +2,35 @@
 <html>
 	<head>
 		<title>Joe Brunett -- Contact</title>
+		<link type="text/css" rel="stylesheet" href="../css/bootstrap.css"/>
 		<link type="text/css" rel="stylesheet" href="../css/styles.css"/>
 		<link type="text/css" rel="stylesheet" href="../css/contact.css"/>
-		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="../js/contact.js"></script>
 	</head>
 
 	<body>
-		<div id="navWrapper">
-			<a href="home.html">
-				<img src="../imgs/logo.png" alt="logo" id="logo"/>
-			</a>
-
-			<nav id="nav">
-				<a href="aboutme.html">About Me</a>
-				<a href="">Contact</a>
-				<a href="portfolio.html">Portfolio</a>
-			</nav>
+		<!-- Fixed navbar -->
+	    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	      <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle">
+		    <span class="sr-only">Toggle navigation</span>
+		  </button>
+		  <a class="navbar-brand" href="home.html">Joseph Brunett</a>
 		</div>
-		<div>
-			<div id="title">
-				<h2>Give me a shout!</h2>
-			</div>
-		</div>
-		<div class="wrapper">
-			<div class="inner" id="contactBox">
-				<form>
-					<input name="name" placeholder="What is your name?" class="name" required />
-					<input name="emailaddress" placeholder="What is your email?" class="email" type="email" required />
-   					<textarea rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message" required></textarea>
-   					<input name="submit" class="btn" type="submit" value="Send" />
-				</form>
-			</div>
-		</div>
-
-		<br/>
-		<br/>
-		<div class="center">
-			<div class="inner" id="twitter">
-				<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/JCuffney" data-widget-id="409924421596372993">Tweets by @JCuffney</a>
-			</div>
-		</div>
-
+		<div class="navbar-collapse collapse">
+		  <ul class="nav navbar-nav">
+		    <li class="active"><a href="home.html">Home</a></li>
+		    <li><a href="aboutme.html">About</a></li>
+		    <li><a href="#">Contact</a></li>
+		    <li class="dropdown"><a href="portfolio.html">Portfolio</a></li>
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right">
+		    <li><a href="scad.edu">SCAD</a></li>
+		  </ul>
+		</div><!--/.nav-collapse -->
+	      </div>
+	    </div>
 
 
 	</body>
