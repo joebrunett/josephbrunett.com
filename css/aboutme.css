@@ -1,0 +1,12 @@
+p{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: white;
+	font-size: 1.95em;
+	padding:10px;
+}
+
+#pic{
+	height:500px;
+	float:left;
+	padding:10px;
+}
