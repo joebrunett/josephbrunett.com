@@ -3,53 +3,14 @@ body{
 	padding-top:50px;
 }
 
-#navWrapper{
-	height:125px;
-	margin: 10px;
+p{
+	color:white;
 }
 
-#navWrapper a{
-	height:125px;
-	display:inline;
-}
-
-#logo{
-	height:125px;
-}
-
-#nav{
-	width:400px;
-	height:125px;
-	display:inline;
-}
-
-#nav a{
-	text-decoration: none;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	color: #000000;
-	font-size: 30px;
-	padding-right:5px;
-	position:relative;
-	bottom:46%;
-}
-
-#nav a:hover{
-	color:#FFFFFF;
+h2{
+	text-align:center;
+	color:white;
+	font-size:15em;
 }
 
 
-.wrapper{
-	width:100%;
-}
-
-.inner{
-	width:960px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.text{
-	font-family: 'Alegreya Sans SC', sans-serif;
-	color: #FFFFFF;
-	font-size: 30px;
-}
